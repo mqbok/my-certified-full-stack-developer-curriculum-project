@@ -1,2 +1,2 @@
-# About my first project on GitHub
-First time to create a website by learning from free code camp.
+# About my projects on GitHub
+These are the projects created when I am learning coding from free code camp
