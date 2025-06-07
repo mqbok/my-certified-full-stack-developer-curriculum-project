@@ -1,0 +1,77 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1 id='title'>HTML Workshop Survey Form</h1>
+      <p id='description'>Thank you for taking the time to help us improve the workshop</p>
+    </header>
+    <main>
+      <form id='survey-form'>
+        <fieldset>
+          <legend>
+            <label for='name' id='name-label'>Name (Required)</label>
+          </legend>  
+          <input type='text' id='name' name='name'placeholder='Enter Your Name' required>
+        </fieldset>
+        <fieldset>
+          <legend>
+            <label for='email' id='email-label'>Email (Required)</label>
+          </legend>  
+          <input type='email' id='email' name='email' placeholder='Enter Your Email' required>
+        </fieldset>
+        <fieldset>
+          <legend>
+            <label for='number' id='number-label'>Age (optional)</label>
+          </legend>  
+          <input type='number' id='number' name='age' min='3' max='100' placeholder='Enter Your Age'>
+        </fieldset>
+        <fieldset>
+          <legend>Was this your first time attending our coding workshop?</legend>
+          <label for='yes-option' >Yes</label>
+          <input type='radio' id='yes-option' name='workshop-joined' value='yes'>
+          <label for='no-option' >No</label>
+          <input type='radio' id='no-option' name='workshop-joined' value='no'>
+        </fieldset>
+        <fieldset>
+          <legend>Why did you join our workshop? (Check all that apply)</legend>
+          <label for='interest'>Personal Interest</label>
+          <input type='checkbox' id='interest' name='interest' value='interest'>
+          <label for='improvement'>Skill improvement</label>
+          <input type='checkbox' id='improvement' name='improvement' value='improvement'>
+          <label for='career'>Career goals</label>
+          <input type='checkbox' id='career' name='career' value='career'>
+           <label for='discount'>Discounted Price</label>
+          <input type='checkbox' id='discount' name='discount' value='discount'>
+        </fieldset>
+        <fieldset>
+          <legend>Rating</legend>
+          <label for='lecturer'>How was the lecturer</label>
+          <select id='dropdown'>
+            <option value="poor">Poor</option>
+            <option value="satisfactory">Satisfactory</option>
+            <option value="good">Good</option>
+            <option value="very-good">Very Good</option>
+            <option selected value="excellent">Excellent</option>
+          </select>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>
+            <label for='comments'>Other comments</label>
+          </legend>
+          <textarea id='comments' rows='4' cols='30' placeholder='Enter Your Comments Here'></textarea>
+        </fieldset>
+        <button type='submit' id='submit'>Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
+
+** end of index.html **
+
