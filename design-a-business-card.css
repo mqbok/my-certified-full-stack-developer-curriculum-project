@@ -2,15 +2,18 @@
 
 body {
   background-color:rosybrown;
-    font-family:Arial,sans-serif;
+  font-family:Arial,sans-serif;
 }
+
 p {
   margin-top:5px;
   margin-bottom:5px;
 }
+
 a {
   text-decoration:none;
 }
+
 .business-card {
   width:300px;
   background-color:rgb(229, 194,152);
@@ -21,6 +24,7 @@ a {
   margin-left:auto;
   margin-right:auto;
 }
+
 .profile-image {
   max-width:100%
 }
