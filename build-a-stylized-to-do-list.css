@@ -5,14 +5,18 @@ body {
   margin-right:auto;
 }
 
+main {
+  background-color:white;
+  border:2px solid black;
+}
+
 h1 {
   text-align:center;
 }
 
 .todo-list {
-  background-color:white;
   list-style-type:none;
-  border:2px solid black;
+  
 }
 
 .todo-list > li {
