@@ -1,0 +1,53 @@
+body {
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:auto;
+  margin-right:auto;
+  width:100vw;
+  min-height:calc(100vh - 100px);
+}
+
+header {
+  text-align:center;
+}
+
+hr {
+  width:90%;
+}
+
+
+
+.paper-lantern {
+  width:75vw;
+  height:50vh;
+}
+
+section {
+  width:40%;
+}
+
+.event-highlights {
+  display:inline-block;
+  text-align:center;
+  margin-left:9%;
+  background-color:lightgrey;
+  border-radius:10px;
+ 
+
+}
+
+.activity {
+  display:inline-block;
+  text-align:center;
+  margin-right:9%;
+  background-color:lightgrey;
+  border-radius:10px;
+  
+}
+
+
+footer {
+  text-align:center;
+}
