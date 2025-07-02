@@ -1,0 +1,47 @@
+body {
+  background-color:darkgrey;
+}
+
+#playing-cards {
+  font-size:2rem;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+
+.card {
+  background-color:white;
+  border-radius:7px;
+  display:flex;
+  width:250px;
+  height:350px;
+  justify-content:space-between;
+  box-shadow:5px 8px black;
+}
+
+.left {
+  align-self:flex-start;
+  padding-left:10px;
+}
+
+.middle {
+  font-size:3em;
+  align-self:center;
+  flex-direction:column;
+}
+
+.right {
+  align-self:flex-end;
+  transform:rotate(180deg);
+  padding-left:10px;
+}
+
+.rotate {
+  transform:rotate(180deg);
+  
+}
+
+.card:last-of-type {
+  color:red;
+}
