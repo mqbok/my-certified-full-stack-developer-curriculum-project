@@ -1,0 +1,136 @@
+* {
+  margin:0;
+  box-sizing:content-box;
+}
+
+#sky {
+  background-color:rgb(182, 237, 255);
+  width:100%;
+  height:60vh;
+  position:absolute;
+  z-index:0;
+}
+
+#grass {
+  position:absolute;
+  width:100%;
+  height:40vh;
+  top:60vh;
+  background-color:rgb(9, 210, 9);
+  z-index:0;
+}
+
+#house {
+  position:relative;
+  margin:auto;
+  top:100px;
+  left:0;
+  bottom:0;
+  right:0;
+  width:500px;
+  height:400px;
+  background-color:rgb(217, 183, 118);
+  border:5px solid rgb(141, 91, 0);
+  z-index:2;
+}
+
+#house div:not(#chimney) {
+  position:absolute;
+  z-index:3;
+}
+
+#roof {
+  top:0;
+  background-color:rgb(170, 0, 0);
+  width:100%;
+  height:80px;
+  border:2px solid rgb(141, 91, 0);
+  box-sizing:border-box;
+}
+
+#window-1 {
+  position:absolute;
+  border:5px solid rgb(141, 91, 0);
+  width:100px;
+  height:100px;
+  background-color:rgb(182, 237, 255);
+  top:120px;
+  left:50px;
+}
+
+#window-2 {
+  position:absolute;
+  border:5px solid rgb(141, 91, 0);
+  width:100px;
+  height:100px;
+  background-color:rgb(182, 237, 255);
+  top:120px;
+  right:50px;
+}
+
+.window-line1 {
+  height:100px;
+  width:5px;
+  background-color:rgb(141, 91, 0);
+  display:absolute;
+  left:47.5px;
+}
+
+.window-line2 {
+  height:5px;
+  width:100px;
+  background-color:rgb(141, 91, 0);
+  display:absolute;
+  top:47.5px;
+}
+
+#door {
+  position:absolute;
+  width:100px;
+  background-color:lightyellow;
+  height:190px;
+  top:210px;
+  left:200px;
+  border:5px solid rgb(141, 91, 0);
+  box-sizing:border-box;
+}
+
+#door div {
+  width:20px;
+  height:20px;
+  border-radius:100%;
+  background-color:rgb(141, 91, 0);
+  top:80px;
+  left:65px;
+}
+
+#chimney {
+  position:absolute;
+  top:-80px;
+  left:405px;
+  border:5px solid black;
+  z-index:1;
+  width:100px;
+  height:80px;
+  background-color:lightgrey;
+  box-sizing:border-box;
+
+}
+
+.chimney-line1 {
+  display:absolute;
+  top:20px;
+  width:100%;
+  height:3px;
+  background-color:black;
+}
+
+.chimney-line2 {
+  display:absolute;
+  top:50px;
+  width:100%;
+  height:3px;
+  background-color:black;
+}
+
+
