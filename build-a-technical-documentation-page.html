@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="build-a-technical-documentation-page.css">
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <header>Python Documentation</header>
+      <a href="#Introduction" class="nav-link">Introduction</a>
+      <a href="#Hello_World" class="nav-link">Hello World</a>
+      <a href="#Input_and_Output" class="nav-link">Input and Output</a>
+      <a href="#Variables" class="nav-link">Variables</a>
+      <a href="#Data_Types" class="nav-link">Data Types</a>
+      <a href="#Control_Flow" class="nav-link">Control Flow</a>
+      <a href="#Functions" class="nav-link">Functions</a>
+<a href="#Lists_and_Tuples" class="nav-link">Lists and Tuples</a>
+<a href="#Loops" class="nav-link">Loops</a>
+<a href="#Dictionaries" class="nav-link">Dictionaries</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Python is a beginner-friendly, high-level programming language known for its clean syntax and readability. It supports multiple programming paradigms, including object-oriented, procedural, and functional programming.</p>
+        <p>Python is widely used in fields like web development, data science, automation, and artificial intelligence.</p>
+      </section>
+      <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
+        <p>The simplest Python program is printing text to the screen. Here's how to do it :</p>
+        <div class="code">
+          <code>print("Hello, World!")</code>
+        </div>
+        <p><code>print()</code> is a built-in function that outputs text.</p>
+        <p>Text must be inside quotes ( " " or ' ' )</p>
+      </section>
+      <section class="main-section" id="Input_and_Output">
+        <header>Input and Output</header>
+        <p>You can use print() to display output and input() to get input from the user :</p>
+        <div class="code">
+          <code>
+            # Output<br>
+            print("Welcome!")<br>
+            <br>
+            # Input<br>
+            name = input("What is your name? ")<br>
+            print("Hi, " + name + "!")<br>
+          </code>
+        </div>
+        <p>Note: input() always returns a string.</p>
+      </section>
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>Variables are used to store data in Python. You create a variable by assigning a value using the <code>=</code> sign:</p>
+        <div class="code">
+          <code>
+            name = "Alice"<br>
+            age = 25<br>
+            is_active = True<br>
+          </code>
+        </div>
+        <p>Python automatically detects the data type.</p>
+        <p>Variable names should be lowercase with underscores (user_name).</p>
+      </section>
+      <section class="main-section" id="Data_Types">
+        <header>Data Types</header>
+        <p>Python has several basic data types:</p>
+        <ul>
+          <li>String (<code>str</code>) - Used to store text.</li>
+          <li>Integer (<code>int</code>) - Whole numbers, without decimals.</li>
+          <li>Float (<code>float</code>) - Numbers with decimal points.</li>
+          <li>Boolean (<code>bool</code>) - Stores either <code>True</code> or <code>False</code>.</li>
+          <li>List - An ordered collection of items (can be mixed types).</li>
+          <li>Tuple - Like a list, but unchangeable (immutable).</li>
+          <li>Dictionary (<code>dict</code>) - Stores data in key-value pairs.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Control_Flow">
+        <header>Control Flow</header>
+        <p>Control the logic of your program with if, elif, and else :</p>
+        <div class="code">
+          <code>
+            age = 18<br>
+            <br>
+            if age >= 18:<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;print("You are an adult.")<br>
+            elif age > 12:<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;print("You are a teenager.")<br>
+            else:<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;print("You are a child.")<br>
+          </code>
+        </div>
+        <p>Python uses indentation to define code blocks (usually 4 spaces).</p>
+      </section>
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <p>Functions allow you to group code into reusable blocks. They help make your code modular, readable, and easier to debug.</p>
+        <p>Defining a Function :</p>
+        <div class="code">
+          <code>
+            def greet(name):<br>
+            print(f"Hello, {name}!")<br>
+          </code>
+        </div>
+        <p>Calling a Function:</p>
+        <div class="code">
+          <code>
+            greet("Alice")<br>
+            # Output: Hello, Alice!<br>
+          </code>
+        </div>
+        <p>Use <code>def</code> to define a function</p>
+        <p>Use <code>return</code> to return values</p>
+        <p>Functions can have parameters and default values</p>
+      </section>
+      <section class="main-section" id="Lists_and_Tuples">
+        <header>Lists and Tuples</header>
+        <p>Lists are ordered, mutable collections.</p>
+        <div class="code">
+          <code>
+            fruits = ["apple", "banana", "cherry"]<br>
+            fruits.append("orange")<br>
+            print(fruits[0])<br>
+            # Output: apple<br>
+          </code>
+        </div>
+        <p>Tuples are ordered, immutable collections.</p>
+        <div class="code">
+          <code>
+            coordinates = (10, 20)<br>
+            print(coordinates[1])<br>
+            # Output: 20<br>
+          </code>
+        </div>
+        <p>Lists: mutable (append, remove, etc.)</p>
+        <p>Tuples: immutable and often used for fixed data</p>
+      </section>
+      <section class="main-section" id="Loops">
+        <header>Loops</header>
+        <p>For Loop :</p>
+        <div class="code">
+          <code>
+            for i in range(5):<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;print(i)<br>
+          </code>
+        </div>
+        <p>While Loop :</p>
+        <div class="code">
+          <code>
+            count = 0<br>
+            while count < 5:<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;print(count)<br>
+            count += 1<br>
+          </code>
+        </div>
+        <p>Loop Control:</p>
+        <ul>
+          <li><code>break</code>: exits the loop</li>
+          <li><code>continue</code>: skips to next iteration</li>
+          <li><code>else</code>: optional block if the loop wasn't exited by <code>break</code></li>
+        </ul>
+      </section>
+      <section class="main-section" id="Dictionaries">
+        <header>Dictionaries</header>
+        <p>A dictionary is an unordered, mutable collection of key-value pairs.</p>
+        <div class="code">
+          <code>
+            person = {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;"name": "Alice",<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;"age": 30,<br>
+            }<br>
+            print(person["name"])<br>
+            # Output: Alice<br>
+          </code>
+        </div>
+      </section>
+    </main>  
+  </body>
+</html>
+
+
+
+
