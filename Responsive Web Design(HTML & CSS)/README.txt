@@ -1,0 +1,1 @@
+These projects were created while I was learning coding through the Certified Full Stack Developer Curriculum (HTML & CSS) course. The content of this course is the same as the Responsive Web Design certification from freeCodeCamp.
