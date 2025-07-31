@@ -1,2 +1,2 @@
-# About my projects on GitHub
-These are the projects I created when I am learning coding from course-Certified Full Stack Developer Curriculum in freeCodeCamp.
+# About my certified full stack developer curriculum projects on GitHub
+These projects were created while I was learning coding through the Certified Full Stack Developer Curriculum course in freeCodeCamp.
