@@ -1,0 +1,2 @@
+const convertCtoF=temp=> temp * (9/5) + 32;
+
