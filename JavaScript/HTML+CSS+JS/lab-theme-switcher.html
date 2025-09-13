@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme Switcher</title>
+  <link rel="stylesheet" href="./lab-theme-switcher.css">
+</head>
+<body>
+  <button id="theme-switcher-button" aria-haspopup="true" aria-expanded="false" aria-controls="theme-dropdown">Switch Theme</button>
+  <ul id="theme-dropdown" role="menu" hidden aria-labelledby="theme-switcher-button">
+    <li role="menu-item" id="theme-light">Light</li>
+    <li role="menu-item" id="theme-dark">Dark</li>
+  </ul>
+  <p aria-live="polite" id="text-box"></p>
+  <script src="./lab-theme-switcher.js"></script>
+</body>
+</html>
+
+
+
+
